@@ -1,0 +1,47 @@
+	    #container{
+                position:relative;
+                height:300px;
+                width:100%;
+                overflow: hidden;
+            }
+            #slide{                
+                position:absolute;
+                top:0px;
+                left:0px;
+                width:100%;
+            }
+            #slide div{
+                position:absolute;
+                top:0px;
+                left:0px;
+                padding:0px;
+                margin:0px;
+            }
+            #slide li{
+                list-style-type: none;
+                display: inline-block;
+                width:300px;
+                margin:0px;
+                padding:0px;
+            }
+            #navbar{
+
+            }
+            #navbar li{
+            	list-style-type: none;
+                display: inline-block;
+                width:10px;
+                height:10px;
+                border:1px solid #268bd2;
+                border-radius:50%;
+                margin: 5px;
+            }
+            #navbar li:hover{
+                cursor:pointer;
+                border-color: #268bd2;
+                background-color:#268bd2;
+            }
+            #navbar li.current{
+                border-color: #268bd2;
+                background-color:#268bd2;
+            }
