@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<title>Profile</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="css/jquery.mobile-1.4.0.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.mobile-1.4.0.js"></script>
+
+<script type="text/javascript" src="swipingtabs.js"></script>
+<link href="swipingtabs.css" rel="stylesheet" type="text/css">
+
+
+
+<body>
+
+<div data-role="page">
+	<div role="main" class="ui-content">
+		<div id="container"> 
+        <div id="slide">
+                            
+                <li>
+                	 <h1>First tab contents</h1>
+                </li>
+            
+                <li>                	
+		        <ul data-role="listview" data-inset="true">
+				<li><a href="#">Acura</a></li>
+				<li><a href="#">Audi</a></li>
+				<li><a href="#">BMW</a></li>
+				<li><a href="#">Cadillac</a></li>
+				<li><a href="#">Ferrari</a></li>
+			</ul>			
+                </li>
+            
+                <li>3
+		        test two text 
+		        test one text
+		        test two text 
+                </li>
+            
+                <li>4
+		        test two text 
+		        test one text
+		        test two text
+                 </li>
+
+        </div>
+        </div>
+     
+	       <div id="navbar"></div>
+	</div>
+	   
+</div>
+
+
+<script>
+	$(function(){
+		 new SwipingTabs("#container",300,"#navbar");        
+	});
+</script>
+
+</body>
+</html>
